@@ -24,6 +24,7 @@ const search = async (): Promise<void> => {
         if (error.response.data.code == 400 || error.response.data.code == 404 || error.response.data.code == 422) {
             status.value = 'No results found or entry is invalid'
         }
+        emit("input-error", error)
 
     }
 

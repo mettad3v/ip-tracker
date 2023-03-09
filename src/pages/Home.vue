@@ -44,7 +44,7 @@ const mapBuilder = ref<MapBuilder>()
 </script>
 <template>
     <main class="h-screen w-screen">
-        <header class="w-full h-[35%] bg-[url('src/assets/pattern-bg.png')]">
+        <header class="w-full h-[35%] ">
             <h1 class="text-white text-center font-bold text-2xl pt-5">IP Address Tracker</h1>
 
             <div class="mt-5 ">
@@ -61,3 +61,9 @@ const mapBuilder = ref<MapBuilder>()
         </div>
     </main>
 </template>
+
+<style>
+header {
+    background-image: url('src/assets/pattern-bg.png');
+}
+</style>
