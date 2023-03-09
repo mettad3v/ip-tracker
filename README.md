@@ -38,11 +38,10 @@ Users should be able to:
 ### Built with
 
 - Vite
-- Vue 3
+- [Vue](https://vuejs.org/) - JS library
 - Typescript
 - TailwindCSS
 - Mobile-first workflow
-- [Vue](https://vuejs.org/) - JS library
 
 ### What I learned
 
