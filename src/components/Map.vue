@@ -1,7 +1,9 @@
 <script lang="ts" setup>
 import type MapBuilder from '@/types/MapBuilder';
 import L from 'leaflet'
-import 'leaflet/dist/leaflet.css';
+import "leaflet/dist/images/marker-shadow.png";
+import "leaflet/dist/images/marker-icon-2x.png";
+// import 'leaflet/dist/leaflet.css';
 import { watchEffect, type PropType } from 'vue';
 
 const props = defineProps({

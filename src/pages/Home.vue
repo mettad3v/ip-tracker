@@ -64,6 +64,6 @@ const mapBuilder = ref<MapBuilder>()
 
 <style>
 header {
-    background-image: url('src/assets/pattern-bg.png');
+    background-image: url('@/assets/pattern-bg.png');
 }
 </style>
